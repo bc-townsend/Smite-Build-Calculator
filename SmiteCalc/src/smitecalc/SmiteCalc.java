@@ -16,7 +16,7 @@ public class SmiteCalc {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello Asgard");
+        System.out.println("Hello Asgard and the japs");
     }
     
 }
