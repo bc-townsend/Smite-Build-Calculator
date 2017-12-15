@@ -7,7 +7,7 @@ package smitecalc;
 
 /**
  *
- * @author Josh
+ * @author Josh Goldstein and Brandon Townsend
  */
 public class SmiteCalc {
 
