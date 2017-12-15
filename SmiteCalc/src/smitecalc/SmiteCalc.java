@@ -8,6 +8,7 @@ package smitecalc;
 /**
  *
  * @author Josh Goldstein and Brandon Townsend
+ * @version 0.0.0
  */
 public class SmiteCalc {
 

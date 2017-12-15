@@ -2,12 +2,13 @@ package smitecalc;
 
 /**
  * @author Josh Goldstein and Brandon Townsend
+ * @version 0.0.0
  */
 public abstract class Item {
-    private String name = "";
-    private String powType = "";
-    private String passive = "";
-    private int cost = 0;
+    protected String name = "";
+    protected String powType = "";
+    protected String passive = "";
+    protected int cost = 0;
 
     public String getName() {
         return name;
@@ -33,9 +34,7 @@ public abstract class Item {
         this.passive = passive;
     }
 
-    public int getCost() {
-        return cost;
-    }
+    public abstract int getCost();
 
     public void setCost(int cost) {
         this.cost = cost;
