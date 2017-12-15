@@ -14,4 +14,8 @@ public class TierOne extends Item {
         this.cost = cost;
         
     }
+        @Override
+    public int getCost() {
+        return this.cost;
+    }
 }
